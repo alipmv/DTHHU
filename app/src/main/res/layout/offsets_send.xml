@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scrollView">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:measureWithLargestChild="false"
+    android:weightSum="1"
+    android:id="@+id/parent_layout"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_number_page_1"
+            android:textColor="#ffffb90a" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert_offset"
+        android:src="@mipmap/insert_offset_here"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/insert_offset_here" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset1"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset2"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset3"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset4"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset5"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c5"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset6"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c6"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/myBackgroundGray">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/offset7"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="9"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/c7"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/button_container_layout"
+        android:measureWithLargestChild="true"
+        android:baselineAligned="false"
+        android:layout_margin="8dp"
+        android:layout_weight="1">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/send_offset_button"
+        android:src="@mipmap/mail26_1"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:contentDescription="@string/send_offset_desc" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

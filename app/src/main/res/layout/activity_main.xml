@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@mipmap/logovv"
+        tools:ignore="ContentDescription"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/insert_sub_num_image"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/scan_button"
+        android:id="@+id/qr_start"
+        android:contentDescription="@string/qr_button"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:adjustViewBounds="true"
+        android:background="#dddddd"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        android:layout_margin="20dp"
+        android:padding="5dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/insert_sub_num_method_2"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:singleLine="true"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/button_next"
+        android:src="@mipmap/next_icon_3"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/homePageButton"
+        android:layout_weight="1" />
+</LinearLayout>

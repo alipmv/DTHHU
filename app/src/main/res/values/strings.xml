@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DTHHU</string>
+
+    <string name="logo">SaymanTech</string>
+    <string name="hint">eg. 09876543210</string>
+    <string name="qr_button">Capture QR code</string>
+    <string name="homePageButton">NEXT</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_choose_function">ChooseFunction</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send_offset_desc">Send</string>
+    <string name="insert_offset_here">Insert offset here</string>
+    <color name="myTextGray">#717171</color>
+    <color name="myBackgroundGray">#99e1e1e1</color>
+</resources>
